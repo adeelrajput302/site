@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,500;1,700&display=swap');
+body{
+margin: 0%;
+padding: 0%;
+font-family: sans-serif;
+background-color: rgb(207, 157, 34);
+color: rgb(1 1 1 / 69%);
+
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    margin: auto 0;
+    margin-top: 10%;
+}
+.container-img img{
+    width: 380px;
+}
+.container-par{
+    margin-left: 2rem;
+}
+.container-par p{
+    margin: 20px 0;
+    line-height: 1.4rem;
+}
+label{
+    position: relative;
+
+}
+input{
+    padding: 15px;
+    width: 496px;
+    height: 13px;
+    border-radius: 4px;
+    border: 2px solid rgb(184 138 24 / 57%);
+}
+button{
+    position: absolute;
+    top: -8.5px;
+    bottom: -12px;
+    right: 4px;
+    justify-self: center;
+    border: none;
+    border-radius: 3px;
+    background: rgb(207, 157, 34);
+    color: #ede4cebd;
+    width: 120px;
+    font-family: sans-serif;
+    font-size: medium;
+}
